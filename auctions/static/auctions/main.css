@@ -1,0 +1,318 @@
+
+html{
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("./background-image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.name-page {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.name-page:hover {
+  text-decoration: none;
+  color: #595959;
+}
+
+.comment {
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-comment {
+  margin-top: 40px;
+}
+
+#watchListTotal {
+  background: #0e61c7;
+  border-radius: 0.8em;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  width: 26px;
+  color: white;
+}
+
+#product{
+  padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,500&display=swap');
+.product-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+.product-description{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-category{
+  position: absolute;
+  top: 8px;
+  right: 30px;
+}
+
+.product-user{
+  position: absolute;
+  bottom: -4px;
+  left: 30px;
+}
+
+.product-date{
+  position: absolute;
+  bottom: -4px;
+  right: 30px;
+}
+
+.category-link{
+  color: black !important;
+  text-shadow: 1px 0px 0px #000000;
+}
+
+.category-link:hover{
+  color: grey !important;
+}
+
+.button-auction{
+  color: white;
+  background-color: black;
+  margin-right: 4px;
+}
+
+.product-bid{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product{
+  margin: 0px !important;
+}
+
+.acution-description{
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#addBid{
+  margin-left: 16px;
+}
+
+.nav-top{
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.categories{
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 10px;
+  background-color: white !important;
+}
+
+.list-details{
+  text-align: center;
+}
+
+.btn-auction{
+  margin-top: 10px;
+  background-color: #0e61c7;
+  color: white;
+}
+
+.btn-outline-auction{
+  border: 1px solid #0e61c7;
+  color: #0e61c7;
+}
+
+.btn-outline-auction:hover{
+  background-color: #0e61c7;
+  color: white;
+}
+
+.btn-auction:hover{
+  color: #e3e3e3;
+}
+
+.dropdown{
+  list-style: none !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.dropdown-item:active{
+  background-color: #0e61c7;
+}
+
+.btn-right{
+  text-align: right;
+}
+.btn-auction{
+  width: 100%;
+}
+
+.btn-middle{
+  text-align: center;
+}
+
+.btn-send-comment{
+  margin-bottom: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+.comment-cont{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn-card{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.btn-card:hover{
+  background-color: #404040;
+  color: white;
+}
+
+.deleteFromWatchlist{
+  margin-top: 20px;
+}
+
+.login, .register, .add-auction{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  /* margin: 50px 0 0 0; */
+  border: 2px solid black;
+  width: auto;
+  padding: 25px;
+  border-radius: 22px;
+  background-color: whitesmoke !important;
+}
+
+.message{
+  margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@700&display=swap');
+.title{
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.empty{
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* styling */
+
+.container-fluid .row .card {
+  border-radius: 7px solid black;
+  margin: 10px;
+}
+.container-fluid .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.navbar-nav .nav-item .nav-link{
+  width: 130px;
+  text-align: center;
+  margin: 0 10px;
+  border-bottom: 2px solid black;
+  font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: #000000;
+  font-size: 18px;
+}
+
+.img-fluid{
+  max-width: 270px !important;
+  object-fit: cover;
+  height: auto;
+}
+.card-body {
+  max-height: 350px;
+}
+
+.login-register-style{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  width: 210px;
+  text-align: center;
+}
+.login-register-style .nav-item{
+  color: black;
+  background-color: #0E61C7;
+}
+
+.login-register-style li{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.login-register-style li:hover{
+  font-size: 18px;
+  background-color: dodgerblue;
+}
+.login-register-style li a{
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+}
+
+.login-container, .register-container { 
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+}
+
+.auction-container{
+  display: block;
+  margin: 0 auto;
+  background-color: white !important;
+  width: 600px !important;
+  justify-content: center;  
+  align-items: center;
+  width: auto;
+}
